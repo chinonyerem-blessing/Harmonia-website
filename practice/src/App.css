@@ -902,62 +902,69 @@
         border-radius: 8px;
     }
 
+    .image {
+        width: 40px;
+        height: 40px;
+        border-radius: 8px;
+    }
+
     .pos1 {
-        top: 65px;
-        left: 8px;
+        top: 55px;
+        left: 40px;
 
     }
 
     .pos2 {
-        left: 10px;
-        top: 8px;
+        left: 40px;
+        top: 11px;
     }
 
     .pos3 {
-        left: 63px;
-        top: 30px;
+        left: 90px;
+        top: 32px;
     }
 
     .pos4 {
-        left: 63px;
-        top: -23px;
+        left: 90px;
+        top: -13px;
     }
 
     .pos5 {
-        left: 118px;
+        left: 139px;
         top: 2px;
     }
 
     .pos6 {
-        left: 171px;
+        left: 185px;
         top: -15px;
     }
 
     .pos7 {
-        left: 224px;
+        left: 229px;
         top: 2px;
 
     }
 
     .pos8 {
-        left: 277px;
+        left: 274px;
         top: -23px;
     }
 
     .pos9 {
-        left: 277px;
-        top: 30px;
+        left: 274px;
+        top: 24px;
     }
 
     .pos10 {
-        left: 330px;
+        left: 320px;
         top: 10px;
     }
 
     .pos11 {
-        top: 65px;
-        left: 330px;
+        top: 58px;
+        left: 320px;
     }
+
 
     .navBtn {
 
@@ -998,7 +1005,7 @@
 
     .navIcon {
         display: flex;
-        gap: 200px;
+        gap: 185px;
         margin-left: 20px;
 
     }
