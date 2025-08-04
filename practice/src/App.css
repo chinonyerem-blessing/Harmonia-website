@@ -1,0 +1,1954 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navIcon {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(81, 204, 81);
+}
+
+.navBtn button {
+    border: none;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(226, 225, 225);
+    padding-bottom: none;
+    outline: none;
+}
+
+.navBtn button:hover {
+    border-bottom: 2px solid rgb(81, 204, 81);
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+
+}
+
+.navBtn {
+    display: flex;
+    gap: 40px;
+
+}
+
+.navBtn2 button {
+    width: 110px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(37, 121, 37);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+.navBtn2 button:hover {
+    background-color: white;
+    color: rgb(37, 121, 37);
+    font-weight: bold;
+}
+
+.navBar {
+    display: flex;
+    gap: 270px;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: linear-gradient(90deg, rgb(3, 17, 3), rgb(39, 48, 39), rgba(218, 216, 216, 0.5)), url("./images/coffeeimg13.jpeg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 1400px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    z-index: 1;
+    color: white;
+
+}
+
+.find {
+    padding-top: 150px;
+    color: rgb(252, 245, 245);
+    font-size: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.find span {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(81, 204, 81);
+}
+
+.find2 {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    color: rgb(177, 174, 174);
+}
+
+.navBody button {
+    width: 190px;
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    background-color: rgb(37, 121, 37);
+    color: white;
+    margin-top: 40px;
+}
+
+.imgs img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.imgs {
+    position: relative;
+    top: 40px;
+}
+
+.img1 {
+    position: absolute;
+}
+
+.img2 {
+    position: absolute;
+    left: 20px;
+}
+
+.img3 {
+    position: absolute;
+    left: 40px;
+}
+
+.img4 {
+    position: absolute;
+    left: 60px;
+}
+
+.img5 {
+    position: absolute;
+    left: 80px;
+}
+
+.appoint {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    left: 140px;
+    color: rgb(214, 213, 213);
+}
+
+.appoint span {
+    font-size: 12px;
+    font-weight: lighter;
+    color: rgb(153, 152, 152);
+
+}
+
+.navv {
+    background: linear-gradient(90deg, rgb(3, 17, 3), rgb(39, 48, 39), rgba(218, 216, 216, 0.5)), url("./images/coffeeimg1.jpeg");
+    background-repeat: no-repeat;
+    padding-bottom: 180px;
+    background-size: cover;
+    padding-left: 80px;
+    padding-top: 40px;
+}
+
+.number {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.description {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(214, 213, 213);
+}
+
+.nums {
+    display: flex;
+    gap: 140px;
+    justify-content: center;
+    background-color: rgb(37, 121, 37);
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.video {
+    width: 550px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.why {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 15px;
+}
+
+.well-being {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-bottom: 35px;
+}
+
+.numb {
+    border-radius: 50%;
+    border: 1px solid rgb(73, 72, 72);
+    width: 30px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    text-align: center;
+
+}
+
+.option {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+}
+
+.note {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(73, 72, 72);
+    line-height: 30px;
+}
+
+.videopara {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 30px;
+}
+
+.videoSEC {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.learn button {
+    width: 130px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    margin-top: 40px;
+    border: none;
+    background-color: rgb(37, 121, 37);
+    color: white;
+}
+
+.learn {
+    display: flex;
+    justify-content: center;
+
+}
+
+.service1 span {
+    font-size: 10px;
+    color: rgb(37, 121, 37);
+    padding-right: 3px;
+
+}
+
+.service1 {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.service2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 5px;
+    mix-blend-mode: multiply;
+
+}
+
+.icon1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(184, 236, 184);
+    mix-blend-mode: multiply;
+    display: flex;
+    justify-content: center;
+}
+
+.iconn {
+    display: flex;
+    justify-content: center;
+}
+
+.head1 {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.box1 {
+    width: 300px;
+    background-color: rgb(207, 245, 207);
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+
+.notes {
+    padding-bottom: 20px;
+}
+
+.arrow {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.arrow span {
+    margin-bottom: 40px;
+    font-size: 11px;
+}
+
+.serv {
+    padding-top: 60px;
+    margin-top: 80px;
+    background-color: rgb(246, 255, 246);
+    padding-bottom: 80px;
+}
+
+.boxx {
+    display: grid;
+    grid-template-columns: repeat(3, 9fr);
+    justify-content: center;
+    gap: 2px;
+    margin-left: 120px;
+}
+
+.step1 {
+    border-radius: 50%;
+    border: none;
+    width: 30px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    text-align: center;
+    background-color: rgb(37, 121, 37);
+    color: white;
+
+}
+
+.step10 {
+    border-radius: 50%;
+    border: none;
+    width: 30px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    text-align: center;
+    background-color: rgb(37, 121, 37);
+    color: white;
+    margin-top: 10px;
+}
+
+.step2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.step20 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.step3 {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(102, 101, 101);
+    line-height: 22px;
+    padding-bottom: 25px;
+}
+
+.step30 {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(102, 101, 101);
+    line-height: 22px;
+}
+
+.stepp {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.stepp img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.stepbtn button {
+    width: 230px;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(37, 121, 37);
+    color: white;
+}
+
+.stepbtn {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.testimonialImg {
+    width: 130px;
+    height: 150px;
+    border-radius: 15px;
+    position: absolute;
+    top: 290px;
+    left: 200px;
+}
+
+.testimonialImg2 {
+    width: 130px;
+    height: 150px;
+    border-radius: 15px;
+    position: absolute;
+    left: 200px;
+    top: 130px;
+}
+
+.testimonialImg3 {
+    width: 130px;
+    height: 150px;
+    border-radius: 15px;
+    position: absolute;
+    left: 340px;
+    top: 210px;
+}
+
+.testimonialImg4 {
+    width: 130px;
+    height: 150px;
+    border-radius: 15px;
+    position: absolute;
+    left: 340px;
+}
+
+.testimonialImg5 {
+    width: 130px;
+    height: 150px;
+    border-radius: 15px;
+    position: absolute;
+    left: 480px;
+    top: 130px;
+}
+
+.testimonialImg6 {
+    width: 130px;
+    height: 150px;
+    border-radius: 15px;
+    position: absolute;
+    left: 760px;
+    top: 130px;
+}
+
+.testimonialImg7 {
+    width: 130px;
+    height: 150px;
+    border-radius: 15px;
+    position: absolute;
+    left: 620px;
+}
+
+.testimonialImg8 {
+    width: 130px;
+    height: 150px;
+    border-radius: 15px;
+    position: absolute;
+    left: 900px;
+    top: 210px;
+}
+
+.testimonialImg9 {
+    width: 130px;
+    height: 150px;
+    border-radius: 15px;
+    position: absolute;
+    left: 900px;
+
+}
+
+.testimonialImg10 {
+    width: 130px;
+    height: 150px;
+    border-radius: 15px;
+    position: absolute;
+    left: 1040px;
+    top: 290px;
+}
+
+.testimonialImg11 {
+    width: 130px;
+    height: 150px;
+    border-radius: 15px;
+    position: absolute;
+    left: 1040px;
+    top: 130px;
+}
+
+.testBox {
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.testimonial-info {
+    transition: transform 0.5s ease-in-out;
+}
+
+.testimonial-controls button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 17px;
+    border: none;
+    background-color: rgb(211, 248, 211);
+    color: rgb(37, 121, 37);
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+
+.testimonial-controls button:hover {
+    background-color: rgb(37, 121, 37);
+    color: rgb(211, 248, 211);
+}
+
+.get {
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(236, 233, 233);
+}
+
+.get span {
+    color: rgb(67, 131, 67);
+}
+
+.get2 {
+    text-align: center;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 30px;
+    color: rgb(134, 132, 132);
+}
+
+.get3 input {
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 10px;
+    outline: none;
+    font-size: 15px;
+    border: none;
+    background-color: rgb(32, 58, 32);
+}
+
+.get3 input::placeholder {
+    padding-left: 10px;
+    color: white;
+}
+
+.get3 button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 15px;
+    border: none;
+}
+
+.get3 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.gett {
+    background-color: rgb(8, 41, 8);
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-text {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(230, 228, 228);
+
+}
+
+.footer-button {
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(55, 129, 55);
+    color: white;
+    cursor: pointer;
+}
+
+.footer1 {
+    display: flex;
+    gap: 750px;
+    justify-content: center;
+}
+
+.line1 {
+    width: 1170px;
+    margin-top: 60px;
+}
+
+.icon2 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    color: rgb(144, 218, 144);
+}
+
+.aim {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    color: rgb(172, 167, 167);
+}
+
+.footerBtn button {
+    border: none;
+    background-color: transparent;
+    font-size: 17px;
+    color: rgb(172, 231, 172);
+    font-weight: bold;
+
+
+}
+
+.footerBtn {
+    display: flex;
+    gap: 15px;
+}
+
+.navi p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(144, 218, 144);
+}
+
+.navi button {
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    margin-top: 10px;
+    color: rgb(172, 167, 167);
+}
+
+.navi1 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    color: rgb(144, 218, 144);
+}
+
+.navi2 {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    color: rgb(172, 167, 167);
+
+}
+
+.navi3 input {
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    background-color: transparent;
+}
+
+.navi3 ::placeholder {
+    color: black;
+
+}
+
+.navi3 button {
+    width: 45px;
+    font-weight: bold;
+    height: 30px;
+    border: none;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(55, 129, 55);
+    color: white;
+
+}
+
+.navi3 {
+    display: flex;
+    background-color: white;
+    width: 208px;
+    height: 30px;
+    margin-bottom: 7px;
+    border-radius: 10px;
+}
+
+.navi4 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    color: rgb(144, 218, 144);
+}
+
+.navi6 {
+    display: flex;
+    gap: 60px;
+}
+
+.navi7 {
+    display: flex;
+    gap: 230px;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.line2 {
+    width: 1170px;
+    margin-top: 30px;
+}
+
+.navi8 p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.navi8 {
+    display: flex;
+    gap: 660px;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(172, 167, 167);
+
+}
+
+.navi9 {
+    padding-top: 60px;
+    background-color: rgb(8, 41, 8);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.hamburger {
+
+    border: none;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+.navBtn2 {
+    margin-left: 190px;
+}
+
+.image {
+    position: absolute;
+    width: 130px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.pos1 {
+    top: 290px;
+    left: 200px;
+
+}
+
+.pos2 {
+    left: 200px;
+    top: 130px;
+}
+
+.pos3 {
+    left: 340px;
+    top: 210px;
+}
+
+.pos4 {
+    left: 340px;
+}
+
+.pos5 {
+    left: 480px;
+    top: 130px;
+}
+
+.pos6 {
+    left: 760px;
+    top: 130px;
+}
+
+.pos7 {
+    left: 620px;
+}
+
+.pos8 {
+    left: 900px;
+    top: 210px;
+}
+
+.pos9 {
+    left: 900px;
+}
+
+.pos10 {
+    left: 1040px;
+    top: 290px;
+}
+
+.pos11 {
+    left: 1040px;
+    top: 130px;
+}
+
+.testimonial-info {
+    top: 380px;
+}
+
+.testimonial-controls {
+    top: 500px
+}
+
+.navi9 {
+    margin-top: 500px;
+}
+
+@media (max-width: 400px) {
+    .testimonial-info {
+        top: 130px;
+    }
+
+    .testimonial-info3 {
+        font-size: 14px;
+    }
+
+    .testimonial-controls {
+        top: 380px
+    }
+
+    .navi9 {
+        margin-top: 400px;
+    }
+
+    .image {
+        width: 50px;
+        height: 50px;
+        border-radius: 8px;
+    }
+
+    .pos1 {
+        top: 65px;
+        left: 8px;
+
+    }
+
+    .pos2 {
+        left: 10px;
+        top: 8px;
+    }
+
+    .pos3 {
+        left: 63px;
+        top: 30px;
+    }
+
+    .pos4 {
+        left: 63px;
+        top: -23px;
+    }
+
+    .pos5 {
+        left: 118px;
+        top: 2px;
+    }
+
+    .pos6 {
+        left: 171px;
+        top: -15px;
+    }
+
+    .pos7 {
+        left: 224px;
+        top: 2px;
+
+    }
+
+    .pos8 {
+        left: 277px;
+        top: -23px;
+    }
+
+    .pos9 {
+        left: 277px;
+        top: 30px;
+    }
+
+    .pos10 {
+        left: 330px;
+        top: 10px;
+    }
+
+    .pos11 {
+        top: 65px;
+        left: 330px;
+    }
+
+    .navBtn {
+
+        display: none;
+        flex-direction: column;
+        width: 300px;
+        font-size: 20px;
+
+
+
+    }
+
+    .navBtn button:hover {
+        border-bottom: none;
+        width: 300px;
+        margin-top: 10px;
+        height: 30px;
+        background-color: rgb(14, 53, 14);
+        text-align: center;
+        margin-left: 10px;
+        color: white;
+        border-radius: 20px;
+    }
+
+    .navBtn2 button {
+        background-color: transparent;
+        width: 300px;
+        margin-left: none;
+    }
+
+    .navBtn2 {
+        margin-left: 0;
+    }
+
+    .navBar {
+        display: block;
+    }
+
+    .navIcon {
+        display: flex;
+        gap: 200px;
+        margin-left: 20px;
+
+    }
+
+    .navBtn.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+        background-color: transparent;
+
+    }
+
+    .find {
+        font-size: 50px;
+        padding-top: 65px;
+    }
+
+    .find2 {
+        font-size: 14px;
+    }
+
+    .navv {
+        padding-left: 30px;
+    }
+
+    .videoSEC {
+        display: block;
+    }
+
+    .video {
+        width: 300px;
+    }
+
+    .vid {
+        display: flex;
+        justify-content: center;
+    }
+
+    .vid2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .why {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .well-being {
+        text-align: center;
+    }
+
+    .nums {
+        gap: 9px;
+    }
+
+    .number {
+        font-size: 20px;
+    }
+
+    .description {
+        font-size: 12px;
+    }
+
+    .serv {
+        padding-top: 0px;
+    }
+
+    .service2 {
+        font-size: 20px;
+    }
+
+    .boxx {
+        display: block;
+        margin-left: 0px;
+    }
+
+    .boxxx {
+        display: flex;
+        justify-content: center;
+    }
+
+    .stepp {
+        display: block;
+    }
+
+    .steppp {
+        display: flex;
+        justify-content: center;
+    }
+
+    .stepo {
+        margin-top: 20px;
+    }
+
+    .footer1 {
+        gap: 21px;
+        padding-left: 25px;
+    }
+
+    .footer-text {
+        font-size: 24px;
+    }
+
+    .navi7 {
+        display: block;
+        padding-left: 25px;
+    }
+
+    .navi6 {
+        display: block;
+        padding-left: 3px;
+    }
+
+    .navi8 {
+        gap: 3px;
+        justify-content: center;
+        padding-left: 10px;
+    }
+
+    .line1 {
+        width: 380px;
+        margin-top: 30px;
+    }
+
+    .line2 {
+        width: 380px;
+    }
+
+    .navi {
+        padding-top: 20px;
+    }
+
+    .navi1 {
+        padding-top: 20px;
+    }
+
+    .navi4 {
+        padding-top: 20px;
+
+    }
+}
+
+@media (min-width: 401px) and (max-width:470px) {
+    .testimonial-info {
+        top: 130px;
+    }
+
+    .testimonial-info3 {
+        font-size: 14px;
+    }
+
+    .testimonial-controls {
+        top: 380px
+    }
+
+    .navi9 {
+        margin-top: 400px;
+    }
+
+    .image {
+        width: 52px;
+        height: 52px;
+        border-radius: 8px;
+    }
+
+    .pos1 {
+        top: 65px;
+        left: 13px;
+
+    }
+
+    .pos2 {
+        left: 15px;
+        top: 8px;
+    }
+
+    .pos3 {
+        left: 74px;
+        top: 38px;
+    }
+
+    .pos4 {
+        left: 74px;
+        top: -23px;
+    }
+
+    .pos5 {
+        left: 132px;
+        top: 2px;
+    }
+
+    .pos6 {
+        left: 190px;
+        top: -15px;
+    }
+
+    .pos7 {
+        left: 247px;
+        top: 2px;
+
+    }
+
+    .pos8 {
+        left: 304px;
+        top: -23px;
+    }
+
+    .pos9 {
+        left: 304px;
+        top: 38px;
+    }
+
+    .pos10 {
+        left: 365px;
+        top: 10px;
+    }
+
+    .pos11 {
+        top: 65px;
+        left: 365px;
+    }
+
+    .navBtn {
+
+        display: none;
+        flex-direction: column;
+        width: 300px;
+        font-size: 20px;
+
+
+
+    }
+
+    .navBtn button:hover {
+        border-bottom: none;
+        width: 300px;
+        margin-top: 10px;
+        height: 30px;
+        background-color: rgb(14, 53, 14);
+        text-align: center;
+        margin-left: 10px;
+        color: white;
+        border-radius: 20px;
+    }
+
+    .navBtn2 button {
+        background-color: transparent;
+        width: 300px;
+        margin-left: none;
+    }
+
+    .navBtn2 {
+        margin-left: 0;
+    }
+
+    .navBar {
+        display: block;
+    }
+
+    .navIcon {
+        display: flex;
+        gap: 240px;
+        margin-left: 20px;
+
+    }
+
+    .navBtn.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+        background-color: transparent;
+
+    }
+
+    .find {
+        font-size: 50px;
+        padding-top: 65px;
+    }
+
+    .find2 {
+        font-size: 14px;
+    }
+
+    .navv {
+        padding-left: 30px;
+    }
+
+    .videoSEC {
+        display: block;
+    }
+
+    .video {
+        width: 300px;
+    }
+
+    .vid {
+        display: flex;
+        justify-content: center;
+    }
+
+    .vid2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .why {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .well-being {
+        text-align: center;
+    }
+
+    .nums {
+        gap: 9px;
+    }
+
+    .number {
+        font-size: 20px;
+    }
+
+    .description {
+        font-size: 12px;
+    }
+
+    .serv {
+        padding-top: 0px;
+    }
+
+    .service2 {
+        font-size: 20px;
+    }
+
+    .boxx {
+        display: block;
+        margin-left: 0px;
+    }
+
+    .boxxx {
+        display: flex;
+        justify-content: center;
+    }
+
+    .stepp {
+        display: block;
+    }
+
+    .steppp {
+        display: flex;
+        justify-content: center;
+    }
+
+    .stepo {
+        margin-top: 20px;
+    }
+
+    .footer1 {
+        gap: 23px;
+        padding-left: 25px;
+    }
+
+    .footer-text {
+        font-size: 27px;
+    }
+
+    .navi7 {
+        display: block;
+        padding-left: 25px;
+    }
+
+    .navi6 {
+        display: block;
+        padding-left: 3px;
+    }
+
+    .navi8 {
+        gap: 3px;
+        justify-content: center;
+        padding-left: 25px;
+    }
+
+    .line1 {
+        width: 380px;
+        margin-top: 30px;
+    }
+
+    .line2 {
+        width: 380px;
+    }
+
+    .navi {
+        padding-top: 20px;
+    }
+
+    .navi1 {
+        padding-top: 20px;
+    }
+
+    .navi4 {
+        padding-top: 20px;
+
+    }
+}
+
+@media (min-width: 471px) and (max-width :700px) {
+    .testimonial-info {
+        top: 130px;
+    }
+
+    .testimonial-info3 {
+        font-size: 14px;
+    }
+
+    .testimonial-controls {
+        top: 380px
+    }
+
+    .navi9 {
+        margin-top: 400px;
+    }
+
+    .image {
+        width: 55px;
+        height: 55px;
+        border-radius: 8px;
+    }
+
+    .pos1 {
+        left: 25px !important;
+        top: 65px;
+    }
+
+    .pos2 {
+        left: 25px;
+        top: 8px;
+    }
+
+    .pos3 {
+        left: 87px;
+        top: 38px;
+    }
+
+    .pos4 {
+        left: 87px;
+        top: -23px;
+    }
+
+    .pos5 {
+        left: 149px;
+        top: 2px;
+    }
+
+    .pos6 {
+        left: 212px;
+        top: -15px;
+    }
+
+    .pos7 {
+        left: 277px;
+        top: 2px;
+
+    }
+
+    .pos8 {
+        left: 339px;
+        top: -23px;
+    }
+
+    .pos9 {
+        left: 339px;
+        top: 38px;
+    }
+
+    .pos10 {
+        left: 402px;
+        top: 10px;
+    }
+
+    .pos11 {
+        top: 70px;
+        left: 402px;
+    }
+
+    .navBtn {
+
+        display: none;
+        flex-direction: column;
+        width: 300px;
+        font-size: 20px;
+
+
+
+    }
+
+    .testimonial {
+        position: absolute;
+    }
+
+    .pos1 {
+        left: 100px;
+    }
+
+    .navBtn button:hover {
+        border-bottom: none;
+        width: 300px;
+        margin-top: 10px;
+        height: 30px;
+        background-color: rgb(14, 53, 14);
+        text-align: center;
+        margin-left: 10px;
+        color: white;
+        border-radius: 20px;
+    }
+
+    .navBtn2 button {
+        background-color: transparent;
+        width: 300px;
+        margin-left: none;
+    }
+
+    .navBtn2 {
+        margin-left: 0;
+    }
+
+    .navBar {
+        display: block;
+    }
+
+    .navIcon {
+        display: flex;
+        gap: 280px;
+        margin-left: 20px;
+
+    }
+
+    .navBtn.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+        background-color: transparent;
+
+    }
+
+    .find {
+        font-size: 60px;
+        padding-top: 65px;
+    }
+
+    .find2 {
+        font-size: 14px;
+    }
+
+    .navv {
+        padding-left: 30px;
+    }
+
+    .videoSEC {
+        display: block;
+    }
+
+    .video {
+        width: 360px;
+    }
+
+    .vid {
+        display: flex;
+        justify-content: center;
+    }
+
+    .vid2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .why {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .well-being {
+        text-align: center;
+    }
+
+    .nums {
+        gap: 23px;
+    }
+
+    .number {
+        font-size: 20px;
+    }
+
+    .description {
+        font-size: 12px;
+    }
+
+    .serv {
+        padding-top: 0px;
+    }
+
+    .service2 {
+        font-size: 30px;
+    }
+
+    .boxx {
+        display: block;
+        margin-left: 0px;
+    }
+
+    .boxxx {
+        display: flex;
+        justify-content: center;
+    }
+
+    .stepp {
+        display: block;
+    }
+
+    .steppp {
+        display: flex;
+        justify-content: center;
+    }
+
+    .stepo {
+        margin-top: 20px;
+    }
+
+    .footer1 {
+        gap: 55px;
+        padding-left: 25px;
+    }
+
+    .footer-text {
+        font-size: 27px;
+    }
+
+    .navi7 {
+        display: block;
+        padding-left: 25px;
+    }
+
+    .navi6 {
+        display: block;
+        padding-left: 3px;
+    }
+
+    .navi8 {
+        gap: 3px;
+        justify-content: center;
+        padding-left: 25px;
+    }
+
+    .line1 {
+        width: 420px;
+        margin-top: 30px;
+    }
+
+    .line2 {
+        width: 420px;
+    }
+
+    .navi {
+        padding-top: 20px;
+    }
+
+    .navi1 {
+        padding-top: 20px;
+    }
+
+    .navi4 {
+        padding-top: 20px;
+
+    }
+}
+
+@media (min-width: 701px) and (max-width:1200px) {
+    .testimonial-info {
+        top: 220px;
+    }
+
+    .testimonial-info3 {
+        font-size: 14px;
+    }
+
+    .testimonial-controls {
+        top: 390px
+    }
+
+    .navi9 {
+        margin-top: 400px;
+    }
+
+    .image {
+        width: 90px;
+        height: 90px;
+        border-radius: 8px;
+    }
+
+    .pos1 {
+        left: 55px !important;
+        top: 120px;
+    }
+
+    .pos2 {
+        left: 55px;
+        top: 20px;
+    }
+
+    .pos3 {
+        left: 160px;
+        top: 80px;
+    }
+
+    .pos4 {
+        left: 160px;
+        top: -23px;
+    }
+
+    .pos5 {
+        left: 259px;
+        top: 30px;
+    }
+
+    .pos6 {
+        left: 358px;
+        top: -15px;
+    }
+
+    .pos7 {
+        left: 457px;
+        top: 30px;
+
+    }
+
+    .pos8 {
+        left: 559px;
+        top: -23px;
+    }
+
+    .pos9 {
+        left: 559px;
+        top: 80px;
+    }
+
+    .pos10 {
+        left: 662px;
+        top: 10px;
+    }
+
+    .pos11 {
+        top: 120px;
+        left: 662px;
+    }
+
+    .navBtn {
+
+        display: none;
+        flex-direction: column;
+        width: 300px;
+        font-size: 20px;
+
+
+
+    }
+
+    .testimonial {
+        position: absolute;
+    }
+
+    .pos1 {
+        left: 100px;
+    }
+
+    .navBtn button:hover {
+        border-bottom: none;
+        width: 300px;
+        margin-top: 10px;
+        height: 30px;
+        background-color: rgb(14, 53, 14);
+        text-align: center;
+        margin-left: 10px;
+        color: white;
+        border-radius: 20px;
+    }
+
+    .navBtn2 button {
+        background-color: transparent;
+        width: 300px;
+        margin-left: none;
+    }
+
+    .navBtn2 {
+        margin-left: 0;
+    }
+
+    .navBar {
+        display: block;
+    }
+
+    .navIcon {
+        display: flex;
+        gap: 560px;
+        margin-left: 40px;
+
+    }
+
+    .navBtn.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+        background-color: transparent;
+
+    }
+
+    .find {
+        font-size: 60px;
+        padding-top: 65px;
+    }
+
+    .find2 {
+        font-size: 14px;
+    }
+
+    .navv {
+        padding-left: 30px;
+    }
+
+    .videoSEC {
+        display: block;
+    }
+
+    .video {
+        width: 460px;
+    }
+
+    .vid {
+        display: flex;
+        justify-content: center;
+    }
+
+    .vid2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .why {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .well-being {
+        text-align: center;
+    }
+
+    .nums {
+        gap: 73px;
+    }
+
+    .number {
+        font-size: 22px;
+    }
+
+    .description {
+        font-size: 12px;
+    }
+
+    .serv {
+        padding-top: 0px;
+    }
+
+    .service2 {
+        font-size: 30px;
+    }
+
+    .boxx {
+        display: block;
+        margin-left: 0px;
+    }
+
+    .boxxx {
+        display: flex;
+        justify-content: center;
+    }
+
+    .stepp {
+        display: block;
+    }
+
+    .steppp {
+        display: flex;
+        justify-content: center;
+    }
+
+    .stepo {
+        margin-top: 20px;
+    }
+
+    .footer1 {
+        gap: 405px;
+        padding-left: 25px;
+    }
+
+    .footer-text {
+        font-size: 27px;
+    }
+
+    .navi7 {
+        display: block;
+        padding-left: 25px;
+    }
+
+    .navi6 {
+        display: block;
+        padding-left: 3px;
+    }
+
+    .navi8 {
+        gap: 260px;
+        justify-content: center;
+        padding-left: 25px;
+    }
+
+    .line1 {
+        width: 770px;
+        margin-top: 30px;
+    }
+
+    .line2 {
+        width: 770px;
+    }
+
+    .navi {
+        padding-top: 20px;
+    }
+
+    .navi1 {
+        padding-top: 20px;
+    }
+
+    .navi4 {
+        padding-top: 20px;
+
+    }
+}
